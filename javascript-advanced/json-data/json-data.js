@@ -1,4 +1,4 @@
-console.log(`Callback-functions Lesson`);
+console.log(`JSON-Data Lesson`);
 
 const callback = (error, data) => {
   if (error) {
@@ -15,15 +15,19 @@ function getTodos(callback) {
     if (this.readyState === 4 && request.status === 200) {
       // Typical action to be performed when the document is ready:
       //   console.log(`>>> Check res: `, request);
-      const data = request.responseText;
+      const data = JSON.parse(request.responseText);
+      const dataString = JSON.stringify(data);
       callback(undefined, data);
+      callback(undefined, dataString);
+      callback(undefined, request.responseText);
     }
 
     if (this.readyState === 4 && request.status !== 200) {
       callback("Something wrongs", undefined);
     }
   };
-  request.open("GET", "https://jsonplaceholder.typicode.com/todos/1", true);
+  //   request.open("GET", "https://jsonplaceholder.typicode.com/todos", true);
+  request.open("GET", "./data.json", true);
   request.send();
 }
 
