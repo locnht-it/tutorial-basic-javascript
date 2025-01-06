@@ -1,4 +1,4 @@
-# LOCNHT.IT | TUTORIAL-BASIC-JAVASCRIPT
+# LOCNHT | TUTORIAL-BASIC-JAVASCRIPT
 
 ## This repository contains exercises from basic to advanced about JavaScript, which helps us understand JavaScript better.
 
@@ -52,4 +52,4 @@
 
 ### Please follow the commit history to understand the sequence of code files corresponding to the lessons above.
 
-## © 2024 Copyright belongs to locnht.it | [fb/locnht.it](https://www.facebook.com/locnht.it) | [Email](mailto:locnht.it@gmail.com) | [LinkedIn](https://www.linkedin.com/in/locnht-it/)
+## © 2024 Copyright belongs to LocNHT | [fb/locnht.it](https://www.facebook.com/locnht.vn) | [Email](mailto:locnht.it@gmail.com) | [LinkedIn](https://www.linkedin.com/in/locnht-it/)
